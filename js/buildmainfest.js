@@ -1,0 +1,41 @@
+self.__BUILD_MANIFEST = function(s, t, a, e) {
+    return {
+        __rewrites: {
+            beforeFiles: [],
+            afterFiles: [],
+            fallback: []
+        },
+        "/": [s, t, "static/chunks/pages/index-de9c4dad85c7281b.js"],
+        "/_error": ["static/chunks/pages/_error-54de1933a164a1ff.js"],
+        "/about": [s, "static/chunks/pages/about-6e0efd0297ddb2ef.js"],
+        "/about/content": ["static/chunks/pages/about/content-79396bf87e8fd26b.js"],
+        "/archive": [s, "static/chunks/pages/archive-234df47f338be8fa.js"],
+        "/code": [a, "static/chunks/pages/code-83227e6eefb0969e.js"],
+        "/my-tools": [s, "static/chunks/pages/my-tools-72b3729aa5d1f6ee.js"],
+        "/my-tools/content": ["static/chunks/pages/my-tools/content-ad00f72b2e562d9b.js"],
+        "/posts/2023-03-22-build-blog-with-nextjs": [a, s, t, e, "static/chunks/pages/posts/2023-03-22-build-blog-with-nextjs-921b9f7c3be601ac.js"],
+        "/posts/2023-03-23-mdx-react-example": [a, s, t, e, "static/chunks/pages/posts/2023-03-23-mdx-react-example-9123f13611750c0d.js"],
+        "/posts/2023-03-23-mdx-react-example/my-button": ["static/chunks/pages/posts/2023-03-23-mdx-react-example/my-button-443319e85c48a5be.js"],
+        "/posts/2023-03-24-add-tag-page-by-ssg": [a, s, t, e, "static/chunks/pages/posts/2023-03-24-add-tag-page-by-ssg-6f58502eafd5223b.js"],
+        "/posts/2023-03-25-customize-style-by-tailwind-plugin": [a, s, t, e, "static/chunks/pages/posts/2023-03-25-customize-style-by-tailwind-plugin-21507101cdb27988.js"],
+        "/posts/2023-03-25-customize-style-by-tailwind-plugin/example02": ["static/chunks/pages/posts/2023-03-25-customize-style-by-tailwind-plugin/example02-f3af0066ac763356.js"],
+        "/posts/2023-03-25-customize-style-by-tailwind-plugin/tailwind-example": ["static/chunks/pages/posts/2023-03-25-customize-style-by-tailwind-plugin/tailwind-example-a9b70f50f0593d20.js"],
+        "/posts/2023-03-27-results-summary-component": [a, s, t, e, "static/chunks/pages/posts/2023-03-27-results-summary-component-566021bac915e6d5.js"],
+        "/posts/2023-03-27-results-summary-component/result-summary": ["static/chunks/pages/posts/2023-03-27-results-summary-component/result-summary-6cd44dd81d79925e.js"],
+        "/posts/2023-03-28-time-tracking-dashboard": [a, s, t, e, "static/chunks/pages/posts/2023-03-28-time-tracking-dashboard-a3e8949db85649ea.js"],
+        "/posts/2023-03-31-build-multi-page-website": [a, s, t, e, "static/chunks/pages/posts/2023-03-31-build-multi-page-website-adc7902dfd11cf40.js"],
+        "/posts/2023-04-01-css-flex-guide": [a, s, t, e, "static/chunks/pages/posts/2023-04-01-css-flex-guide-4db72d8c32400c9a.js"],
+        "/posts/2023-04-01-css-flex-guide/demo": ["static/chunks/pages/posts/2023-04-01-css-flex-guide/demo-4e26d041326fe971.js"],
+        "/tags/[tag]": [s, "static/chunks/pages/tags/[tag]-ef30b36819cf34d8.js"],
+        "/works": [s, "static/chunks/pages/works-b902312dd7bfc98c.js"],
+        "/works/2023-03-28-time-tracking-dashboard": ["static/chunks/pages/works/2023-03-28-time-tracking-dashboard-abe3386f26993462.js"],
+        "/works/2023-03-29-meta-versus": ["static/chunks/685-77fbcc983bac373f.js", "static/css/8fc785c068655d7d.css", "static/chunks/pages/works/2023-03-29-meta-versus-ece0e8eb979879bc.js"],
+        "/works/2023-03-31-space-tourism": [s, "static/chunks/pages/works/2023-03-31-space-tourism-2395152d14fa562a.js"],
+        "/works/2023-03-31-space-tourism/crew": [s, "static/chunks/pages/works/2023-03-31-space-tourism/crew-a40087e7411b8e31.js"],
+        "/works/2023-03-31-space-tourism/destination": [s, "static/chunks/pages/works/2023-03-31-space-tourism/destination-8238990db7e02022.js"],
+        "/works/2023-03-31-space-tourism/technology": [s, "static/chunks/pages/works/2023-03-31-space-tourism/technology-9591e6479140f555.js"],
+        "/works/2023-04-08-vpn-landing-page": [s, "static/chunks/pages/works/2023-04-08-vpn-landing-page-b8816956e2619593.js"],
+        sortedPages: ["/", "/_app", "/_error", "/about", "/about/content", "/archive", "/code", "/my-tools", "/my-tools/content", "/posts/2023-03-22-build-blog-with-nextjs", "/posts/2023-03-23-mdx-react-example", "/posts/2023-03-23-mdx-react-example/my-button", "/posts/2023-03-24-add-tag-page-by-ssg", "/posts/2023-03-25-customize-style-by-tailwind-plugin", "/posts/2023-03-25-customize-style-by-tailwind-plugin/example02", "/posts/2023-03-25-customize-style-by-tailwind-plugin/tailwind-example", "/posts/2023-03-27-results-summary-component", "/posts/2023-03-27-results-summary-component/result-summary", "/posts/2023-03-28-time-tracking-dashboard", "/posts/2023-03-31-build-multi-page-website", "/posts/2023-04-01-css-flex-guide", "/posts/2023-04-01-css-flex-guide/demo", "/tags/[tag]", "/works", "/works/2023-03-28-time-tracking-dashboard", "/works/2023-03-29-meta-versus", "/works/2023-03-31-space-tourism", "/works/2023-03-31-space-tourism/crew", "/works/2023-03-31-space-tourism/destination", "/works/2023-03-31-space-tourism/technology", "/works/2023-04-08-vpn-landing-page"]
+    }
+}("static/chunks/664-8af8765c6fed5950.js", "static/chunks/294-5ea272ee345872fa.js", "static/chunks/80efaec8-5a35e225073e564a.js", "static/chunks/887-87933584b2712ac5.js"),
+self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();
